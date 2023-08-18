@@ -1,0 +1,10 @@
+--04-04
+
+USE Northwind
+GO
+
+-- START
+SELECT TOP 10 *
+FROM ORDERS o
+
+
