@@ -1,4 +1,6 @@
 --04-01
+USE Northwind
+GO
 
 -- SELECT
 SELECT TOP 10 *
