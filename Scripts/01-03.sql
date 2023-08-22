@@ -1,5 +1,8 @@
 --01-03
 
+USE Northwind
+GO
+
 -- select * from table
 SELECT *
 FROM dbo.OrderDetails

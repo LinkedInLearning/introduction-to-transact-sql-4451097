@@ -1,17 +1,20 @@
 --01-02
 
+USE Northwind
+go
+
 -- Table aliases
-SELECT title, firstName, lastName
-FROM dbo.Customer AS cust
+SELECT CompanyName, ContactName, ContactTitle
+FROM dbo.Customers AS cust
 
 -- Poor Table Alias
-SELECT title, firstName, lastName
-FROM dbo.Customer AS a
+SELECT CompanyName, ContactName, ContactTitle
+FROM dbo.Customers AS a
 
 -- Column Aliases
-SELECT title, firstName, lastName, dob
-FROM dbo.Customer AS cust
+SELECT CompanyName, ContactName, ContactTitle, postalcode as 'Zip Code'
+FROM dbo.Customers AS cust
 
 -- Cont
-SELECT title, firstName, lastName, dob as DateOfBirth
-FROM dbo.Customer AS cust
+SELECT CompanyName, ContactName, ContactTitle, postalcode as 'Zip Code'
+FROM dbo.Customers AS cust

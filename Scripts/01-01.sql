@@ -1,7 +1,10 @@
 -- 01-01
 
-SELECT *
-FROM dbo.customer
+USE Northwind
+go
 
-SELECT title, firstName, lastName
-FROM dbo.customer
+SELECT *
+FROM dbo.customers
+
+SELECT CompanyName, ContactName, ContactTitle
+FROM dbo.customers

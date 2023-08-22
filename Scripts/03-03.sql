@@ -1,4 +1,6 @@
 --03-03
+USE Northwind
+GO
 
 SELECT DISTINCT CustomerID, EmployeeID
 FROM Orders
